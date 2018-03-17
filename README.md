@@ -63,4 +63,3 @@ NOTE: Because i'm using a free server, for now, the server shuts down after 30 m
      {"id":1649,"model":"Serie 5",
      "brand":{"id":17,"brand":"BMW"},
      "type":{"id":1,"type":"Car"}}]
-     ```

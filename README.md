@@ -1,5 +1,5 @@
 # Vehicles API
-Public REST API to get Vehicles Types, Brands and Models.
+Public REST API to get Vehicles Types, Brands and hundreds of Models. Unlike similar API's, this one is free.
 
 NOTE: Because i'm using a free server, for now, the server shuts down after 30 minutes of inactivity. If it takes some time, is because nobody made a request in the last 30 minutes
 

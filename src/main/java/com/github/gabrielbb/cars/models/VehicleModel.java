@@ -2,7 +2,6 @@ package com.github.gabrielbb.cars.models;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
-import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 
 import lombok.Data;

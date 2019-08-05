@@ -1,6 +1,6 @@
 package com.github.gabrielbb.cars.repos;
 
-import com.github.gabrielbb.cars.models.VehicleType;;
+import com.github.gabrielbb.cars.models.VehicleType;
 import org.springframework.data.repository.CrudRepository;
 
 /**

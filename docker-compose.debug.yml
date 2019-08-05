@@ -1,0 +1,13 @@
+version: '2.1'
+
+services:
+  vehicles-api:
+    image: vehicles-api
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      JAVA_OPTS: -agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=5005,quiet=y
+    ports:
+      - 8080:8080
+      - 5005:5005

@@ -1,0 +1,8 @@
+version: '2.1'
+
+services:
+  vehicles-api:
+    image: vehicles-api
+    build: .
+    ports:
+      - 8080:8080

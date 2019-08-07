@@ -1,6 +1,8 @@
-.gradle
-/build/
-!gradle/wrapper/gradle-wrapper.jar
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**
+!**/src/test/**
 
 ### STS ###
 .apt_generated
@@ -9,6 +11,7 @@
 .project
 .settings
 .springBeans
+.sts4-cache
 
 ### IntelliJ IDEA ###
 .idea
@@ -17,20 +20,13 @@
 *.ipr
 
 ### NetBeans ###
-nbproject/private/
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
 build/
-nbbuild/
-dist/
-nbdist/
-.nb-gradle/
 
-### Heroku Files ###
-heroku-key
-heroku-key.pub
-
-### Visual Studio Code ###
-.vscode
-bin/
-.sts4-cache/
-
-src/main/resources/application-dev.properties
+### VS Code ###
+.vscode/
+/bin/
